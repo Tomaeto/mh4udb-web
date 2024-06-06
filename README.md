@@ -1,2 +1,4 @@
 # mh4udb-web
-Web version of MH4U DB
+MH4U Database website built using Vue.js and Express
+
+Demo available [here]()
