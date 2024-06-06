@@ -12,7 +12,7 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
 app.use ((req, res, next) => {
-    res.setHeader('Access-Control-Allow-Origin', 'https://mh4udb.netlify.app/');
+    res.setHeader('Access-Control-Allow-Origin', 'https://mh4udb.netlify.app');
     res.setHeader('Content-Type', 'application/json');
     next();
 })
